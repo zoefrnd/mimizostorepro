@@ -1,0 +1,44 @@
+# Dependencies
+node_modules
+.pnpm-store
+.yarn/*
+.npm/*
+bun.lockb
+
+# Testing
+.coverage
+.nyc_output
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env*.local
+.env.development.local
+
+# Vercel
+.vercel
+
+# Build outputs
+.next
+out
+build
+dist
+
+# Skills and documentation (not needed for deployment)
+skills
+examples
+
+# Upload folder
+upload
+
+# Database files (production will use cloud database)
+db/*.db
+!db/.gitkeep

@@ -1,12 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
-  /* config options here */
+  reactStrictMode: true,
+
+  // Aman untuk build di Vercel
   typescript: {
     ignoreBuildErrors: true,
   },
-  reactStrictMode: false,
+
   eslint: {
     ignoreDuringBuilds: true,
   },
